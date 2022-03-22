@@ -8,7 +8,7 @@ $pass = $_POST["password"];
 if ($user == "admin" && $pass == "admin") {
     echo "Login was successful!";
   } else {
-    echo "Have a good night!";
+    echo "Bad login!";
   }
 
 session_destroy();
